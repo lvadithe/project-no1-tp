@@ -1,10 +1,7 @@
+import { Sub } from "../../../types.d"
+
 interface Props {
-    subs: Array<{
-        nick: string
-        subMonths: number
-        avatar: string
-        description?: string
-    }>
+    subs: Array<Sub>
 }
 
 export default function List({subs}: Props) {
